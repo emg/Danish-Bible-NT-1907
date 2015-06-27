@@ -322,14 +322,18 @@ class OSISHandler(xml.sax.ContentHandler):
     def handleElementStart(self, tag, attributes):
         if tag == "verse":
             if attributes.has_key(u"eID"):
-                pass
+                self.endVerse()
             else:
                 self.endVerse()
                 self.startVerse(attributes["osisID"])
         elif tag == "chapter":
-            self.endVerse()
-            self.endChapter()
-            self.startChapter(attributes["osisID"])
+            if attributes.has_key(u"eID"):
+                self.endVerse()
+                self.endChapter()
+            else:
+                self.endVerse()
+                self.endChapter()
+                self.startChapter(attributes["osisID"])
         elif tag == "p":
             obj = self.createObject("paragraph")
             self.bPrevIsSentenceEnd = True

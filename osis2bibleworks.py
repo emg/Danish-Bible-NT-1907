@@ -198,10 +198,13 @@ class OSISHandler(xml.sax.ContentHandler):
         elif len(self.nixing_stack) != 0:
             pass
         elif tag == "verse":
-            osisID = attributes["osisID"]
-            self.curref = osisID2ref(osisID)
-            self.verses.setdefault(self.curref, [])
-            self.bInVerse = True
+            if attributes.has_key("eID"):
+                pass
+            else:
+                osisID = attributes["osisID"]
+                self.curref = osisID2ref(osisID)
+                self.verses.setdefault(self.curref, [])
+                self.bInVerse = True
         elif tag in self.ignored_elements:
             pass
         else:
