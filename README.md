@@ -4,6 +4,7 @@
 
 This is the New Testament in Danish, authorized by the Danish King in
 1907, and published by the Danish Bible Society in the same year.
+With original orthography (pre-1948-reform).
 
 ##License?
 
@@ -12,24 +13,30 @@ Public Domain. Copy freely.
 
 ## Provenance?
 
-OCR scanning from a hardcopy Bible with Roman script (not Fraktur).
+New OCR scanning from a hardcopy Bible with Roman script (not
+Fraktur).
+
+With extensive electronic checking against a copy of different
+provenance, as well as continuous checking against a hardcopy
+published by the Danish Bible Society in 1930.
 
 
 ##Whodunnit?
 
-- Ulrik Sandborg-Petersen did the scanning, OCR, cleanup, and
-  OSIS-ification.
+- Ulrik Sandborg-Petersen of Scripture Systems ApS, Denmark, did the
+  scanning, OCR, cleanup, and OSIS-ification.
 
-Send corrections and comments to ulrikp-at-emergence-dot-dk.
+Send corrections and comments to ulrikp-at-scripturesys-dot-com.
 
 Or send Ulrik a pull request via Github.
 
 
 ##Status?
 
-- Text complete and vigorously proofread.
-- Footnotes almost complete, and all that have been completed have
-  also been proofread.
+- Text complete and vigorously proofread, from Matthew through Revelation.
+- All explanatory footnotes added and proofread.
+- All chapter-outlines added.
+
 
 
 ##Maintenance?
@@ -44,4 +51,4 @@ Enjoy!
 
 Ulrik Sandborg-Petersen
 
-Last update: 2015-03-17
+Last update: 2016-01-29
