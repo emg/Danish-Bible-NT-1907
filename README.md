@@ -1,17 +1,17 @@
 # Danish Bible New Testament 1907
 
-##What is this?
+## What is this?
 
 This is the New Testament in Danish, authorized by the Danish King in
 1907, and published by the Danish Bible Society in the same year.
 With original orthography (pre-1948-reform).
 
-##License?
+## License?
 
 Public Domain. Copy freely.
 
 
-## Provenance?
+##  Provenance?
 
 New OCR scanning from a hardcopy Bible with Roman script (not
 Fraktur).
@@ -21,7 +21,7 @@ provenance, as well as continuous checking against a hardcopy
 published by the Danish Bible Society in 1930.
 
 
-##Whodunnit?
+## Whodunnit?
 
 - Ulrik Sandborg-Petersen of Scripture Systems ApS, Denmark, did the
   scanning, OCR, cleanup, and OSIS-ification.
@@ -31,7 +31,7 @@ Send corrections and comments to ulrikp-at-scripturesys-dot-com.
 Or send Ulrik a pull request via Github.
 
 
-##Status?
+## Status?
 
 - Text complete and vigorously proofread, from Matthew through Revelation.
 - All explanatory footnotes added and proofread.
@@ -39,7 +39,7 @@ Or send Ulrik a pull request via Github.
 
 
 
-##Maintenance?
+## Maintenance?
 
 Yes.  Suggestions welcome.
 
@@ -51,4 +51,4 @@ Enjoy!
 
 Ulrik Sandborg-Petersen
 
-Last update: 2016-01-29
+Last update of this README: 2018-11-11
