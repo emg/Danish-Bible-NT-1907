@@ -26,11 +26,6 @@ published by the Danish Bible Society in 1930.
 - Ulrik Sandborg-Petersen of Scripture Systems ApS, Denmark, did the
   scanning, OCR, cleanup, and OSIS-ification.
 
-Send corrections and comments to ulrikp-at-scripturesys-dot-com.
-
-Or send Ulrik a pull request via Github.
-
-
 ## Status?
 
 - Text complete and vigorously proofread, from Matthew through Revelation.
@@ -42,6 +37,12 @@ Or send Ulrik a pull request via Github.
 ## Maintenance?
 
 Yes.  Suggestions welcome.
+
+Send corrections and comments to ulrikp-at-scripturesys-dot-com.
+
+Or send Ulrik a pull request via Github.
+
+
 
 
 
